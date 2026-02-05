@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ec.cajamarca.api.pdf:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ec.cajamarca.api.pdf</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ec.cajamarca.api.pdf-0.1.war">
+      <element id="artifact" artifact-name="ec.cajamarca.api.pdf:war exploded" />
+    </root>
+  </artifact>
+</component>
