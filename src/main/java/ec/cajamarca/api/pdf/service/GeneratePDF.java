@@ -88,6 +88,7 @@ public class GeneratePDF {
         documentGeneric.setContent(
                 new String(Base64.encodeBase64(pdf.getPDF()), StandardCharsets.UTF_8)
         );
+        
 
         // 5) Liberar memoria (clave en batch grandes)
         if (dataListAux != null) {
